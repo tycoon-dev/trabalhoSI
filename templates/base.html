@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Informação</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    
+
+
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Sistemas de Informação</span>
+        <div class="float-right">
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="password" name="password" id="password" placeholder="password">
+                <button type="submit">Entrar</button>
+
+
+            </form>
+        </div>
+    </nav>
+
+
+    {% block body%}
+
+    
+    {% endblock %}
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+</body>
+
+
+</html>
